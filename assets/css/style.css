@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+margin-top-40 {
+    margin-top: 40px;
+}
+
+.container-cabecalho {
+    text-align: center;
+    padding: 20px;
+    background-color: lightblue;
+}
+
+.container-cabecalho h3 {
+    font-weight: 600;
+    font-size: 2em;
+    color: blue;
+}
+
+.container-navegacao {
+    text-align: center;
+    padding: 20px;
+    color: blue;
+    background-color: #00BFFF;
+}
+
+.container-navegacao a {
+    font-size: 1.5em;
+    margin: 0px 50px;
+    text-decoration: none;
+    color: rgb(43, 43, 240);
+}
+
+.container-navegacao a:hover{
+    color:aliceblue
+}
+
+.container-quem-somos {
+    background-color: #87CEFA;
+    overflow: auto;
+}
+
+.container-quem-somos .servico {
+    float: center;
+    margin: 60px auto;
+    background-color: #00BFFF;
+    width: 50%;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container-quem-somos .servico .icone {
+    margin-bottom: 10px;
+    width: 100px;
+}
+
+.container-quem-somos .servico .servico-texto {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: black;
+}
+
+.container-quem-somos .servico-texto-realce {
+    color: rgb(229, 240, 247);
+    font-weight: bold;
+}
+
+.container-servicos-contatos {
+    background-color: #41c2f4;
+    padding: 80px;
+    text-align: center;
+}
+
+.container-servicos-contatos .botoes-servicos {
+    padding: 60px;
+    text-align: center;
+}
+
+.botoes-servicos a {
+    display: block;
+    max-width: 200px;
+    text-decoration: none;
+    font-size: 1.2em;
+    background-color: rgb(92, 166, 215);
+    color: white;
+    padding: 20px 60px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.botoes-servicos a:hover {
+    background-color: white;
+    color: black;
+}
+
+.container-servicos {
+    background-color:	#64aaef;
+    font-size: 1.1em;
+    padding: 60px;
+    overflow: auto;
+}
+
+.container-servicos h1 {
+    font-size: 3em;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.container-servicos h3{
+    color: darkslateblue;
+    padding: 20px 0;
+
+}
+
+.container-servicos li {
+    margin-bottom: 20px;
+    margin-left: 50px;
+    color: white;
+}
+
+.container-servicos article {
+    width: 40%;
+    margin:auto;
+    float: center; 
+}
+
+.text-center {
+    text-align: center;
+}
+
+.margin-top-40 {
+    margin-top: 40px;
+}
+
+.container-contatos {
+    background-color: #87CEEB;
+    padding: 80px;
+}
+
+.container-contatos h1 {
+    font-size: 3em;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.container-contatos h3 {
+    font-size: 1.5em;
+    font-weight: 100;
+    width: 40%;
+    margin: auto;
+    color: white;
+    margin-bottom: 20px;
+    border: 1px solid grey;
+    background-color:#1E90FF;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.container-contatos .contatos {
+    display: block;
+    font-size: 2em;
+    text-decoration: none;
+    color: rgb(49, 165, 243);
+    margin-bottom: 20px;
+     
+}
+footer {
+    text-align: center;
+    padding: 80px;
+    background-color:#1E90FF;
+    color: lightgrey;
+}
+
+
